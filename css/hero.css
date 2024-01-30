@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	font-family: Helvectiva, Arial, sans-serif;
+/* the whole paragraph on site	*/
+	font-size: 20px;
+	line-height: 30px;
+}
+
+header{
+	background-color: darkgreen;
+	text-align: center;
+/*	phần đệm */
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+h1, h2 {
+	font-family: 'Press Start 2P', system-ui;
+}
+
+header h1{
+	color: white;
+}
+
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 10px solid darkseagreen;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 35px;
+	color: seagreen;
+	margin: 40px 0 10px;
+}
+
+p{
+	font-size: 20px;
+}
+
+a{
+	color: darkblue;
+}
+
+a:hover{
+	color: purple;
+	background-color: black;
+}
+
+footer{
+	background-color: darkgreen;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+/*footer mean the last line. a mean the linked text*/
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: lightslategray;
+	font-style: italic;
+	margin-top: 0;
+}
